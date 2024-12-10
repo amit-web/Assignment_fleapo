@@ -1,282 +1,310 @@
-.main-div{
-    width: 100%;
 
-    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 55, 255, 0) 0%, #0084FF 100%);
-    padding: 60px;
-
-}
-
-.cources{
-    width: 691px;
-    height: 134px;
-    margin-bottom: 50px;
-}
-.c-para{
-width: 59px;
-height: 24px;
-gap: 0px;
-opacity: 0px;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0.20000000298023224px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #96BB7C;
-
-}
-
-.popular{
-    width: 461px;
-    height: 50px;
-    opacity: 0px;
-    font-family: Montserrat;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 50px;
-    letter-spacing: 0.20000000298023224px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: white;
-    
-}
-.c-des{
-width: 463px;
-height: 40px;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0.20000000298023224px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: white;
-}
-
-.card{
-width: 238px;
-height: 602px;
-margin-top: 30px;
-
-}
-.cards{
-    display: flex;
-    gap: 100px;
-}
-
-.img-div{
-width: 238px;
-height: 300px;
-position: relative;
-
-
-
-}
-.img-div> img{
-    border-radius: 10px 10px 0px 0px;
-    width: 289px;
-    height: 310px;
-}
-
-.sale{
-width:51px;
-height:24px;
-top: 20px;
-left: 20px;
-padding: 0px 10px 0px 10px;
-gap: 0px;
-border-radius: 3px 0px 0px 0px;
-opacity: 0px;
-background: #E74040;
-color: white;
-position: absolute;
+.main-div {
+  width: 100%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 55, 255, 0) 0%,
+    #0084ff 100%
+  );
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
 }
 
 
-.sale>h6{
-    width: 31px;
-    height: 24px;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.20000000298023224px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    margin-top: -1px;
-    margin-left: 10px;
-       
-}
-.like-section{
-    position: absolute;
-    top: 240px;
-    left: 50px;
+.cources {
+  max-width: 700px;
+  padding: 0 20px;
 }
 
-.description{
-    width: 238px;
-    height: 300px;
-    padding: 25px 25px 35px 25px;
-    border-radius: 0px 0px 0px 0px;
-    opacity: 0px;
-    display: flex;
-    flex-direction: column;
+.c-para {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  color: #96bb7c;
+  margin-bottom: 8px;
+}
+
+.popular {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ffffff;
+  margin: 0;
+}
+
+.c-des {
+  font-size: 14px;
+  font-weight: 400;
+  color: #d6d6d6;
+  margin-top: 10px;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+
+
+.card {
+  width: 100%;
+  max-width: 280px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.img-div {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-div img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.like-section {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  justify-content: center;
+  transform: translateX(-50%);
+}
+.sale {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  background: #ff5252;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  height: 20px;
+}
+.sale>h6 {
+  margin-top: 4px;
+}
+
+.description {
+  text-align: left;
+  width: 238px;
+  height: 302px;
+  padding: 25px 25px 35px 25px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 188px;
+  height: 26px;
+}
+.rating > p {
+  width: 120px;
+  height: 24px;
+  color: #96bb7c;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.rating img {
+  width: 50px;
+  height: 26px;
+}
+.video-live {
+  height: 24px;
+  width: 163px;
+}
+
+.video-live h5 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #252b42;
+}
+
+.focous-text p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #737373;
+}
+
+.download {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 24px;
+  width: 83px;
+}
+.download h6 {
+  width: 57px;
+  height: 24px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #737373;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  height: 38px;
+  width: 108px;
+  padding: 5px 3px 5px 3px;
+  gap: 5px;
+}
+
+.price-1 {
+  width: 52px;
+  height: 24px;
+  color: #bdbdbd;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.price-2 {
+  width: 45px;
+  height: 24px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffab71;
+}
+
+.btn-learn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 12px;
+  cursor: pointer;
+  width: 141.14px;
+  height: 25px;
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+  border-radius: 37px;
+  border: 1px solid #96bb7c;
+}
+
+.btn-learn button {
+  width: 100px;
+  height: 24px;
+  border: none;
+  background: none;
+  color: #96BB7C;
+
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .cources {
+    padding: 0 50px;
+  }
+
+  .popular {
+    font-size: 28px;
+  }
+
+  .c-des {
+    font-size: 13px;
+  }
+
+  .cards {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-div {
+    padding: 30px 15px;
+  }
+
+  .popular {
+    font-size: 24px;
+  }
+
+  .c-des {
+    font-size: 12px;
+  }
+
+  .cards {
     gap: 10px;
-    background-color: white;
-}   
+  }
 
-.rating{
-    width: 188px;
-    height:26px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-     
-}
-.rating>p{
-width: 120px;
-height: 24px;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0.20000000298023224px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #96BB7C;
+  .card {
+    max-width: 240px;
+  }
+
+  .btn-learn {
+    font-size: 10px;
+    padding: 6px 12px;
+  }
 }
 
-.video-live{
-width: 163px;
-height: 24px;
-margin-top: -20px;
-margin-bottom: 10px;
+@media (max-width: 480px) {
+  .popular {
+    font-size: 20px;
+  }
 
-}
-.video-live>h5{
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 800;
-    line-height: 20px;
-    letter-spacing: 0.10000000149011612px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #252B42;
+  .c-des {
+    font-size: 12px;
+  }
 
-}
-
-.focous-text{
-width: 182px;
-height: 40px;
-
-
-}
-.focous-text>p{
-font-family: Montserrat;
-font-size: 17px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0.20000000298023224px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #737373;
-}
-
-.download{
-    width: 200px;
-    height: 50px;
-    display: flex;
+  .cards {
     gap: 10px;
-    align-items: center;
-   
-}
-.download>img{
-    width: 10px;
-    height: 10px;
-    border: 1px solid gray;
-    margin-top: -10px;
-   
-}
-.download>h6{
-width: 57px;
-height: 24px;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 700;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #737373;
-}
+  }
 
-.prices{
-    width: 108px;
-    height: 50px;
-    padding: 5px 3px 5px 3px;
-    display: flex;
-    gap: 5px;
-    margin-top: -50px;
-    margin-bottom: 10px;
-     
-}
-.price-1{
-width: 52px;
-height: 24px;
-font-family: Montserrat;
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0.10000000149011612px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #BDBDBD;
+  .card {
+    max-width: 100%;
+  }
 
-}
-.price-2{
-    width: 45px;
-    height: 24px;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.10000000149011612px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #FFAB71;
+  .description {
+    padding: 10px;
+  }
 
-}
-
-.btn-learn{
-display: flex;
-width: 141.14px;
-height: 44px;
-padding: 10px 20px 10px 20px;
-justify-content: space-around;
-border-radius: 37px;
-border: 1px 0px 0px 0px;
-
-border: 1px solid #96BB7C
-
-}
-.btn-learn>button{
-    border: none;
-    background: none;
-    color: #96BB7C;
-}
-.btn-learn>img{
-margin-top: 10px;
-width: 9.14px;
-height: 16px;
-gap: 0px;
-
-
+  .btn-learn {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
 }
